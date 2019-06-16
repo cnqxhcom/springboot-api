@@ -32,9 +32,8 @@ public class UserController {
         boolean result = false;
         User user = new User();
         if (!StringUtils.isEmpty(name)) {
-            user.setUserName(name);
-            System.out.println(user);
             result = UserRepositorypository.save(user);
+            user.setUserName(name);
             System.out.println(user);
         }
 
