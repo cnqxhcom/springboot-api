@@ -1,0 +1,14 @@
+改项目是由springboot-helloword演化而来
+
+1、项目演变
+    springboot-helloword    -->> springboot-api
+                                    三个子模块：web、model、repositories
+
+2、项目分析
+    web：视图模块，处理请求
+    model：实体模块，提供公共实体对象
+    repositories：类库模块，提供公共存储方法
+
+3、依赖分析
+    父工程：springboot-api
+    web子模块 ====>> repositories类库中心 ====>> model实体模块
