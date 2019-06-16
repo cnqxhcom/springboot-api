@@ -35,6 +35,7 @@ public class UserController {
             user.setUserName(name);
             System.out.println(user);
             result = UserRepositorypository.save(user);
+            System.out.println(user);
         }
 
         jsonObject.put("flag", result);
