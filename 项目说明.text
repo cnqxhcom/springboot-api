@@ -2,7 +2,7 @@
 
 1、项目演变
     springboot-helloword    -->> springboot-api
-                                    三个子模块：web、model、repositories
+                                 三个子模块：web、model、repositories
 
 2、项目分析
     web：视图模块，处理请求
